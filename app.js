@@ -6,7 +6,7 @@ const cors = require("cors");
 const app = express();
 
 app.use(cors({
-    origin: "http://localhost:3000", // Frontend URL
+    origin: "http://localhost:4000", // Frontend URL
     credentials: true
 }));
 app.use(express.json());
